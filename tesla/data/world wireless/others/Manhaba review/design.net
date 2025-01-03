@@ -1,0 +1,21 @@
+* C:\aeonWorkingDirectory\research\publications\World Wireless\Manhaba review\circuit diagram.sxsch
+*#SIMETRIX
+V1 D1_N V1_N 12
+R1 D1_N D1_N 50k
+R2 D1_N D1_N 50k
+D1 D1_P D1_N D1N4148
+D2 V1_N D1_P D1N4148
+D3 D3_P D1_N D1N4148
+D4 V1_N D3_P D1N4148
+Q1 Q2_C D1_N V1_N 0 Q2N2222
+Q2 Q2_C D1_N V1_N 0 Q2N2222
+X$TX1 D1_N Q2_C TX1_20 TX1_21 TX1_30 D1_N Nonind_TxTX1 pinnames: 10 11 20 21 30 31 
+.subckt Nonind_TxTX1 10 11 20 21 30 31 
+F1 0 n1 E1 1
+E1 10 11 n1 0 1
+F2 0 n1 E2 2
+E2 20 21 n1 0 2
+F3 0 n1 E3 1
+E3 30 31 n1 0 1
+.ends 
+
