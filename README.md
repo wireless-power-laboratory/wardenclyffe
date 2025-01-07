@@ -8,4 +8,4 @@ This repository concerns media efforts by myself and my company to re-open and f
 
 #### Errate
 
-Note that additional content can be found under the project [earthshake]().
+Note that additional content can be found under the project [earthshake](https://github.com/wireless-power-laboratory/earthshake).
